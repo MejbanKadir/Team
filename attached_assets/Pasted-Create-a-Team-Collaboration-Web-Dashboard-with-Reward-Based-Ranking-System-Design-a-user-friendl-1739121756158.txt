@@ -1,0 +1,53 @@
+Create a Team Collaboration Web Dashboard with Reward-Based Ranking System*
+
+Design a user-friendly, visually appealing web dashboard to manage team members, projects, and reward points for skill-based collaboration. Include the following features:
+
+---
+
+### Core Features  
+1. User Management  
+   - Signup/Login: Secure authentication with email/password or Google/GitHub.  
+   - User Profiles:  
+     - Avatar, name, contact info, skills (tags: e.g., Python, Cybersecurity, UI/UX).  
+     - Role assignment (Admin/Team Leader/Member).  
+   - Admin Panel:  
+     - Add/remove users, assign roles, edit profiles, and manage permissions.  
+     - Track user activity and project contributions.  
+
+2. Project Management  
+   - Create Projects:  
+     - Title, category (Web Dev, Hacking, Automation, Robotics, App Dev, Reverse Engineering, AI/ML), description, deadlines, reward points (e.g., 100 pts for "Build AI Chatbot").  
+     - Assign team members and designate a Team Leader (automatically highest-ranked user in the category).  
+   - Project Tracking:  
+     - Progress bars, task lists, comments, and file uploads.  
+     - Mark projects as "completed" to trigger reward distribution.  
+
+3. Reward & Ranking System  
+   - Points Allocation: Automatically distribute reward points to team members upon project completion (configurable by admins).  
+   - Ranking Leaderboard:  
+     - Display rankings per category (e.g., "Top 5 in AI/ML").  
+     - Highlight Team Leaders for each category.  
+   - Badges & Achievements: Unlockable rewards for milestones (e.g., "Automation Expert" badge).  
+
+4. User Directory  
+   - Skill-Based Filtering: Search users by category/skills (e.g., "Find Robotics Engineers").  
+   - Profile Highlights: Show rankings, completed projects, and earned points.  
+
+---
+
+### UI/UX Requirements  
+- Dashboard Homepage:  
+  - Stats overview (active projects, top-ranked users, recent activity).  
+  - Interactive charts for team performance.  
+- Modern Design:  
+  - Clean layout with sidebar navigation.  
+  - Dark/light mode, animations, and intuitive icons.  
+  - Responsive for mobile/desktop.  
+- Notification System: Alerts for deadlines, role changes, or rewards.  
+
+---
+
+### Admin Panel Features  
+- Project Oversight: Edit/delete projects, adjust rewards, and monitor progress.  
+- Analytics: Visualize team performance metrics (e.g., points earned per category).  
+- Category Management: Add/remove project categories or skills.
